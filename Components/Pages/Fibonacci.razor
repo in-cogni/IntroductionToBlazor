@@ -1,0 +1,57 @@
+﻿@page "/febonacci"
+@rendermode InteractiveServer
+
+<h3>Fibonacci</h3>
+
+<input type="number" @bind="n" min="0"/>
+<button @onclick="Calc">=</button>
+
+@if (list != null && list.Count > 0)
+{
+	<div>
+		<p>
+			@string.Join(", ", list)
+		</p>
+		<p><strong>F(@n) = @result</strong></p>
+	</div>
+}
+
+@code {
+	int n = 0;
+	long result;
+	List<long> list = new List<long>();
+
+	void Calc()
+	{
+		(result, list) = Feb(n);
+
+	}
+	(long result, List<long> list) Feb (int n)
+	{
+		List<long> listFeb = new List<long>();
+		if (n <= 1) 
+		{
+			for(int i =0; i<=n; i++)
+			{
+				listFeb.Add(i);
+			}
+			return (n, listFeb);
+		}
+
+		long a = 0;
+		long b = 1;
+		long res;
+
+		listFeb.Add(a);
+		listFeb.Add(b);
+		for (int i = 2; i <= n; i++)
+		{
+			res = a + b;
+			a = b;
+			b = res;
+			listFeb.Add(b);
+		}
+
+		return (b, listFeb);
+	}
+}
