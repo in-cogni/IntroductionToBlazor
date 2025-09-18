@@ -1,0 +1,28 @@
+ul[b-9jcmn61bqv] {
+    list-style: none;
+}
+li[b-9jcmn61bqv]
+{
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
+.complete-task[b-9jcmn61bqv]
+{
+    text-decoration: line-through;
+    color: gray;
+}
+.container[b-9jcmn61bqv]
+{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.todo-done[b-9jcmn61bqv]
+{
+    flex: 1;
+    min-height: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    padding-left: 0;
+    border-radius: 15px;
+}
