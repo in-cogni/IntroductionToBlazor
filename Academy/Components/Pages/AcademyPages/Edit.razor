@@ -1,0 +1,94 @@
+﻿@page "/academies/edit"
+@using Microsoft.EntityFrameworkCore
+@using Academy.Models
+@inject IDbContextFactory<Academy.Data.AcademyContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Edit</PageTitle>
+
+<h1>Edit</h1>
+
+<h2>Academy</h2>
+<hr />
+@if (Academy is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="Academy" OnValidSubmit="UpdateAcademy" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary role="alert"/>
+                <input type="hidden" name="Academy.Id" value="@Academy.Id" />
+                <div class="mb-3">
+                    <label for="discipline_name" class="form-label">discipline_name:</label>
+                    <InputText id="discipline_name" @bind-Value="Academy.Discipline_name" class="form-control" />
+                    <ValidationMessage For="() => Academy.Discipline_name" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="number_of_lessons" class="form-label">number_of_lessons:</label>
+                    <InputNumber id="number_of_lessons" @bind-Value="Academy.Number_of_lessons" class="form-control" />
+                    <ValidationMessage For="() => Academy.Number_of_lessons" class="text-danger" />
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </EditForm>
+        </div>
+    </div>
+}
+
+<div>
+    <a href="/academies">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromQuery]
+    private int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    private AcademyModels? Academy { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        Academy ??= await context.Academy.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (Academy is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more information, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task UpdateAcademy()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Attach(Academy!).State = EntityState.Modified;
+
+        try
+        {
+            await context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!AcademyExists(Academy!.Id))
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        NavigationManager.NavigateTo("/academies");
+    }
+
+    private bool AcademyExists(int id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Academy.Any(e => e.Id == id);
+    }
+}

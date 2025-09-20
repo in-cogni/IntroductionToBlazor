@@ -3,35 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\academy\\models\\academymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|solutionrelative:academy\\models\\academymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\academy\\components\\pages\\academypages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|solutionrelative:academy\\components\\pages\\academypages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AcademyContext_ca7b05c1_bc11_4695_819b_e9a60ea7af36/True/SqlTable/dbo.Academy.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\academy\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|solutionrelative:academy\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\academy\\components\\pages\\academypages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|solutionrelative:academy\\components\\pages\\academypages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\academy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17C9536-D6B1-48DA-836E-5C4A92B374FD}|Academy\\Academy.csproj|solutionrelative:academy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|solutionrelative:movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72029D7C-EE2C-4F89-A88A-D39B92C37F27}|TODOlist\\TODOlist.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\todolist\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72029D7C-EE2C-4F89-A88A-D39B92C37F27}|TODOlist\\TODOlist.csproj|solutionrelative:todolist\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\movies\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|solutionrelative:movies\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MoviesContext_cd61c212_63cc_4815_b057_90feb9427cc4/True/SqlTable/dbo.Movie.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\movies\\data\\moviescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|solutionrelative:movies\\data\\moviescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\movies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|solutionrelative:movies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\movies\\components\\pages\\moviepages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,109 +37,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Movies\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Movies\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T18:21:01.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TODO.razor",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\TODOlist\\Components\\Pages\\TODO.razor",
-              "RelativeDocumentMoniker": "TODOlist\\Components\\Pages\\TODO.razor",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\TODOlist\\Components\\Pages\\TODO.razor",
-              "RelativeToolTip": "TODOlist\\Components\\Pages\\TODO.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T15:54:31.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "Movies\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Models\\Movie.cs",
-              "RelativeToolTip": "Movies\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T16:08:08.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T18:19:43.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Movie [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MoviesContext_cd61c212_63cc_4815_b057_90feb9427cc4/True/SqlTable/dbo.Movie.sql",
-              "ToolTip": "dbo.Movie [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-18T18:22:06.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MoviesContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Data\\MoviesContext.cs",
-              "RelativeDocumentMoniker": "Movies\\Data\\MoviesContext.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Data\\MoviesContext.cs",
-              "RelativeToolTip": "Movies\\Data\\MoviesContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T17:10:22.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\appsettings.json",
-              "RelativeDocumentMoniker": "Movies\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\appsettings.json",
-              "RelativeToolTip": "Movies\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-18T16:52:08.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.razor",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Components\\Pages\\MoviePages\\Create.razor",
-              "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Create.razor",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Components\\Pages\\MoviePages\\Create.razor",
-              "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Create.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T16:35:12.823Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -167,6 +62,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Academy [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AcademyContext_ca7b05c1_bc11_4695_819b_e9a60ea7af36/True/SqlTable/dbo.Academy.sql",
+              "ToolTip": "dbo.Academy [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-20T14:08:30.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Academy\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Academy\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:07:12.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Components\\Pages\\AcademyPages\\Index.razor",
+              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\AcademyPages\\Index.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Components\\Pages\\AcademyPages\\Index.razor",
+              "RelativeToolTip": "Academy\\Components\\Pages\\AcademyPages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:04:42.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AcademyModels.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Models\\AcademyModels.cs",
+              "RelativeDocumentMoniker": "Academy\\Models\\AcademyModels.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Models\\AcademyModels.cs",
+              "RelativeToolTip": "Academy\\Models\\AcademyModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T13:34:25.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Program.cs",
+              "RelativeDocumentMoniker": "Academy\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Program.cs",
+              "RelativeToolTip": "Academy\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T13:34:21.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Components\\Pages\\AcademyPages\\Create.razor",
+              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\AcademyPages\\Create.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Academy\\Components\\Pages\\AcademyPages\\Create.razor",
+              "RelativeToolTip": "Academy\\Components\\Pages\\AcademyPages\\Create.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T13:22:30.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Movies\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Models\\Movie.cs",
+              "RelativeToolTip": "Movies\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T13:07:00.105Z"
             }
           ]
         }
