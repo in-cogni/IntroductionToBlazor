@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:AcademyContext"
+    },
+    "secrets1": {
+      "type": "secrets"
+    }
+  }
+}
