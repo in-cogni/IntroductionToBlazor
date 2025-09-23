@@ -1,0 +1,18 @@
+﻿@page "/bin2dec"
+@rendermode InteractiveServer
+
+<h3>Bin2Dec</h3>
+
+<input type="number" @bind="n" />
+<button @onclick="Calc"> -> </button>
+<label>@result</label>
+
+@code {
+    string n;
+	int result;
+	void Calc()
+	{
+		result = Convert.ToInt32(n, 2);
+	}
+}
+

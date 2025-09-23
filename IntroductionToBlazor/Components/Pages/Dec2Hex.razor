@@ -1,0 +1,17 @@
+﻿@page "/dec2hex"
+@rendermode InteractiveServer
+<h3>Dec2Hex</h3>
+
+<input type="number" @bind="n" />
+<button @onclick="Calc"> -> </button>
+<label>@result</label>
+
+@code {
+	int n;
+	string result;
+	void Calc()
+	{
+		result = Convert.ToString(n, 16);
+	}
+}
+

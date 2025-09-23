@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\introductiontoblazor\\components\\pages\\hex2dec.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|solutionrelative:introductiontoblazor\\components\\pages\\hex2dec.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\introductiontoblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|solutionrelative:introductiontoblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\introductiontoblazor\\components\\pages\\bin2dec.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|solutionrelative:introductiontoblazor\\components\\pages\\bin2dec.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\introductiontoblazor\\components\\pages\\dec2bin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|solutionrelative:introductiontoblazor\\components\\pages\\dec2bin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\introductiontoblazor\\components\\pages\\dec2hex.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|solutionrelative:introductiontoblazor\\components\\pages\\dec2hex.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\introductiontoblazor\\components\\pages\\power.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2DCD7D-D319-4F58-8AA3-12BD7DFF60B8}|IntroductionToBlazor\\IntroductionToBlazor.csproj|solutionrelative:introductiontoblazor\\components\\pages\\power.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|solutionrelative:movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AB7A456-301B-4CA6-BFF6-C80B820B54CC}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,26 +74,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hex2Dec.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Hex2Dec.razor",
+              "RelativeDocumentMoniker": "IntroductionToBlazor\\Components\\Pages\\Hex2Dec.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Hex2Dec.razor",
+              "RelativeToolTip": "IntroductionToBlazor\\Components\\Pages\\Hex2Dec.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:35:56.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bin2Dec.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Bin2Dec.razor",
+              "RelativeDocumentMoniker": "IntroductionToBlazor\\Components\\Pages\\Bin2Dec.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Bin2Dec.razor",
+              "RelativeToolTip": "IntroductionToBlazor\\Components\\Pages\\Bin2Dec.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:32:43.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dec2Bin.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Dec2Bin.razor",
+              "RelativeDocumentMoniker": "IntroductionToBlazor\\Components\\Pages\\Dec2Bin.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Dec2Bin.razor",
+              "RelativeToolTip": "IntroductionToBlazor\\Components\\Pages\\Dec2Bin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:29:03.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dec2Hex.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Dec2Hex.razor",
+              "RelativeDocumentMoniker": "IntroductionToBlazor\\Components\\Pages\\Dec2Hex.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Dec2Hex.razor",
+              "RelativeToolTip": "IntroductionToBlazor\\Components\\Pages\\Dec2Hex.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:27:56.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Power.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Power.razor",
+              "RelativeDocumentMoniker": "IntroductionToBlazor\\Components\\Pages\\Power.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Pages\\Power.razor",
+              "RelativeToolTip": "IntroductionToBlazor\\Components\\Pages\\Power.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:15:09.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "IntroductionToBlazor\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\IntroductionToBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "IntroductionToBlazor\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T14:04:00.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Movies\\Models\\Movie.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Models\\Movie.cs",
               "RelativeToolTip": "Movies\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T17:50:44.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor",
               "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor",
               "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-20T16:33:57.357Z",
               "EditorCaption": ""
