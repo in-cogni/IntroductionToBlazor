@@ -1,37 +1,63 @@
 ﻿using BlazorAcademy.Components;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using BlazorAcademy.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContextFactory<BlazorAcademyContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BlazorAcademyContext") ?? throw new InvalidOperationException("Connection string 'BlazorAcademyContext' not found.")));
 
-builder.Services.AddQuickGridEntityFrameworkAdapter();
+// БЕЗОПАСНАЯ регистрация БД
+var connectionString = builder.Configuration.GetConnectionString("BlazorAcademyContext");
 
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+if (string.IsNullOrEmpty(connectionString))
+{
+    // Если нет строки подключения, используем InMemory
+    builder.Services.AddDbContextFactory<BlazorAcademyContext>(options =>
+        options.UseInMemoryDatabase("BlazorAcademy"));
+    Console.WriteLine("Using InMemory database");
+}
+else
+{
+    // Если есть строка подключения, используем SQL Server
+    builder.Services.AddDbContextFactory<BlazorAcademyContext>(options =>
+        options.UseSqlServer(connectionString));
+    Console.WriteLine($"Using SQL Server: {connectionString}");
+}
 
-// Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
-    app.UseMigrationsEndPoint();
+}
+else
+{
+    app.UseDeveloperExceptionPage(); // Детальные ошибки в development
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
+
+// Автоматические миграции только для реальной БД
+if (!string.IsNullOrEmpty(connectionString))
+{
+    try
+    {
+        using var scope = app.Services.CreateScope();
+        var context = scope.ServiceProvider.GetRequiredService<BlazorAcademyContext>();
+        context.Database.Migrate();
+        Console.WriteLine("Database migrations applied successfully");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Database migration error: {ex.Message}");
+    }
+}
 
 app.Run();
