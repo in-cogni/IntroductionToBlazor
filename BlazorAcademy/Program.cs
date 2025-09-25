@@ -33,5 +33,11 @@ app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
-
+//////////////////////////////////////////////////////////////
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<BlazorAcademyContext>();
+    context.Database.Migrate(); 
+}
+//////////////////////////////////////////////////////////////
 app.Run();

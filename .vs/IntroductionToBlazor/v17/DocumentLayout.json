@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\components\\pages\\teacherpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\components\\pages\\teacherpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Dockerfile",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Dockerfile",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Dockerfile",
+              "RelativeToolTip": "BlazorAcademy\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-25T11:58:48.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Delete.razor",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\TeacherPages\\Delete.razor",
               "RelativeDocumentMoniker": "BlazorAcademy\\Components\\Pages\\TeacherPages\\Delete.razor",
@@ -98,20 +115,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Edit.razor",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\TeacherPages\\Edit.razor",
               "RelativeDocumentMoniker": "BlazorAcademy\\Components\\Pages\\TeacherPages\\Edit.razor",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\TeacherPages\\Edit.razor",
               "RelativeToolTip": "BlazorAcademy\\Components\\Pages\\TeacherPages\\Edit.razor",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAcwE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-25T11:23:27.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Create.razor",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\TeacherPages\\Create.razor",
               "RelativeDocumentMoniker": "BlazorAcademy\\Components\\Pages\\TeacherPages\\Create.razor",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BlazorAcademyContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Data\\BlazorAcademyContext.cs",
               "RelativeDocumentMoniker": "BlazorAcademy\\Data\\BlazorAcademyContext.cs",
@@ -135,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Group.cs",
               "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Group.cs",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorAcademy\\Components\\Layout\\NavMenu.razor",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create.razor",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\StudentPages\\Create.razor",
               "RelativeDocumentMoniker": "BlazorAcademy\\Components\\Pages\\StudentPages\\Create.razor",
@@ -171,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Teacher.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Student.cs",
               "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Student.cs",
@@ -195,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Direction.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Direction.cs",
               "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Direction.cs",
@@ -207,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Edit.razor",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\StudentPages\\Edit.razor",
               "RelativeDocumentMoniker": "BlazorAcademy\\Components\\Pages\\StudentPages\\Edit.razor",
