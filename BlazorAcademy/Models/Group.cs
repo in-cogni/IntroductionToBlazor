@@ -9,7 +9,7 @@ namespace BlazorAcademy.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int group_id { get; set; }
         [Required]
-        public string group_name { get; set; }
+        public string? group_name { get; set; }
         [Required]
         public byte direction { get; set; }
         [Required]
