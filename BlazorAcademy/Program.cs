@@ -4,7 +4,6 @@ using BlazorAcademy.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ТОЛЬКО SQLite
 builder.Services.AddDbContextFactory<BlazorAcademyContext>(options =>
     options.UseSqlite("Data Source=app.db"));
 
@@ -20,11 +19,15 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-// ПРОСТО создаем БД без миграций
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<BlazorAcademyContext>();
     db.Database.EnsureCreated();
+
+    if (!db.Students.Any())
+    {
+        await DataMigrator.MigrateFromSqlServer(db);
+    }
 }
 
 app.UseHttpsRedirection();
