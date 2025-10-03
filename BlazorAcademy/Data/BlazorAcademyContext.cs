@@ -9,17 +9,16 @@ namespace BlazorAcademy.Data
 {
     public class BlazorAcademyContext : DbContext
     {
-        public BlazorAcademyContext (DbContextOptions<BlazorAcademyContext> options)
+        public BlazorAcademyContext(DbContextOptions<BlazorAcademyContext> options)
             : base(options)
         {
         }
 
-        public DbSet<BlazorAcademy.Models.Direction> Directions { get; set; } = default!;
-        public DbSet<BlazorAcademy.Models.Group> Groups { get; set; } = default!;
-        public DbSet<BlazorAcademy.Models.Student> Students { get; set; } = default!;
-        //public DbSet<BlazorAcademy.Models.Teacher> Teachers { get; set; } = default!;
-        public DbSet<Teacher> Teachers { get; set; } = default!;
-        public DbSet<TeacherSimple> TeacherSimples { get; set; } = default!;
-        public DbSet<BlazorAcademy.Models.Discipline> Disciplines { get; set; } = default!;
+        public DbSet<Direction> Directions { get; set; } = default!;
+        public DbSet<Group> Groups { get; set; } = default!;
+        public DbSet<Student> Students { get; set; } = default!;
+        //public DbSet<Teacher> Teachers { get; set; } = default!;
+        public DbSet<TeacherSimple> TeacherSimples { get; set; } = default!; 
+        public DbSet<Discipline> Disciplines { get; set; } = default!;
     }
 }

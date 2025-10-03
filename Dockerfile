@@ -1,13 +1,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY BlazorAcademy/BlazorAcademy.csproj BlazorAcademy/
-RUN dotnet restore "BlazorAcademy/BlazorAcademy.csproj"
+RUN dotnet restore BlazorAcademy/BlazorAcademy.csproj
 COPY BlazorAcademy/ BlazorAcademy/
 WORKDIR /src/BlazorAcademy
-RUN dotnet build "BlazorAcademy.csproj" -c Release -o /app/build
-RUN dotnet publish "BlazorAcademy.csproj" -c Release -o /app/publish
+RUN dotnet publish -c Release -o /app
 
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
-COPY --from=build /app/publish .
+COPY --from=build /app .
 ENTRYPOINT ["dotnet", "BlazorAcademy.dll", "--urls", "http://0.0.0.0:10000"]
