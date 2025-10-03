@@ -4,8 +4,10 @@ using Microsoft.Extensions.DependencyInjection;
 using BlazorAcademy.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = "Data Source=LALALA\\SQLEXPRES;Initial Catalog=PV_319_Import;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
+
 builder.Services.AddDbContextFactory<BlazorAcademyContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BlazorAcademyContext") ?? throw new InvalidOperationException("Connection string 'BlazorAcademyContext' not found.")));
+    options.UseSqlServer(connectionString));
 
 builder.Services.AddQuickGridEntityFrameworkAdapter();
 

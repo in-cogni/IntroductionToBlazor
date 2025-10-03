@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "BlazorAcademy\\Components\\Pages\\StudentPages\\Index.razor",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\StudentPages\\Index.razor",
               "RelativeToolTip": "BlazorAcademy\\Components\\Pages\\StudentPages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-03T15:18:10.759Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "BlazorAcademy\\Data\\BlazorAcademyContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T14:54:40.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T14:54:40.486Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "BlazorAcademy\\Models\\Teacher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T13:19:43.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T13:19:43.763Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "BlazorAcademy\\Components\\Pages\\TeacherPages\\Edit.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T15:01:45.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T15:01:45.606Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "BlazorAcademy\\Components\\Pages\\TeacherPages\\Index.razor",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T12:30:55.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T12:30:55.549Z"
             }
           ]
         }
