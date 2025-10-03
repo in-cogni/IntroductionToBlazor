@@ -32,5 +32,5 @@ app.UseStaticFiles();
 app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
-
+app.Urls.Add("http://0.0.0.0:10000");
 app.Run();
