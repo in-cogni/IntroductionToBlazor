@@ -5,25 +5,25 @@
 @using BlazorAcademy.Data
 @implements IAsyncDisposable
 @inject IDbContextFactory<BlazorAcademy.Data.BlazorAcademyContext> DbFactory
+@rendermode InteractiveServer
 
 <PageTitle>Index</PageTitle>
 
-<h1>Index</h1>
+<h1>Преподаватели</h1>
 
 <p>
     <a href="teachers/create">Create New</a>
 </p>
 
 <QuickGrid Class="table" Items="context.Teachers">
-    <PropertyColumn Property="teacher => teacher.last_name" />
-    <PropertyColumn Property="teacher => teacher.first_name" />
-    <PropertyColumn Property="teacher => teacher.middle_name" />
-    <PropertyColumn Property="teacher => teacher.birth_date" />
-    <PropertyColumn Property="teacher => teacher.email" />
-    <PropertyColumn Property="teacher => teacher.phone" />
-    <PropertyColumn Property="teacher => teacher.photo" />
-    <PropertyColumn Property="teacher => teacher.work_since" />
-    <PropertyColumn Property="teacher => teacher.rate" />
+    @* <PropertyColumn Sortable="true" Title="Преподаватель" Property="teacher => teacher.FullName"></PropertyColumn> *@
+    <PropertyColumn Title="Фамилия" Property="teacher => teacher.last_name" Sortable="true" />
+    <PropertyColumn Title="Имя" Property="teacher => teacher.first_name" Sortable="true" />
+    <PropertyColumn Title="Отчество" Property="teacher => teacher.middle_name" Sortable="true" />
+    <PropertyColumn Sortable="true" Title="Дата рождения" Property="teacher => teacher.birth_date" Format="yyyy.MM.dd"/>
+    <PropertyColumn Sortable="true" Title="Возраст" Property="teacher => teacher.Age" />
+    <PropertyColumn Sortable="true" Title="Работает с" Property="teacher => teacher.work_since" />
+    <PropertyColumn Sortable="true" Title="Ставка за пару" Property="teacher => teacher.rate" />
 
     <TemplateColumn Context="teacher">
         <a href="@($"teachers/edit?teacher_id={teacher.teacher_id}")">Edit</a> |

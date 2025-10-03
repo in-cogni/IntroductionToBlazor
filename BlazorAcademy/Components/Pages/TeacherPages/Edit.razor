@@ -3,6 +3,7 @@
 @using BlazorAcademy.Models
 @inject IDbContextFactory<BlazorAcademy.Data.BlazorAcademyContext> DbFactory
 @inject NavigationManager NavigationManager
+@rendermode InteractiveServer
 
 <PageTitle>Edit</PageTitle>
 
@@ -23,13 +24,23 @@ else
                 <ValidationSummary role="alert"/>
                 <input type="hidden" name="Teacher.teacher_id" value="@Teacher.teacher_id" />
                 <div class="mb-3">
+                    <label for="work_since" class="form-label">work_since:</label>
+                    <InputDate id="work_since" @bind-Value="Teacher.work_since" class="form-control" aria-required="true"/>
+                    <ValidationMessage For="() => Teacher.work_since" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="rate" class="form-label">rate:</label>
+                    <InputNumber id="rate" @bind-Value="Teacher.rate" class="form-control" aria-required="true"/>
+                    <ValidationMessage For="() => Teacher.rate" class="text-danger" />
+                </div>
+                <div class="mb-3">
                     <label for="last_name" class="form-label">last_name:</label>
-                    <InputText id="last_name" @bind-Value="Teacher.last_name" class="form-control" />
+                    <InputText id="last_name" @bind-Value="Teacher.last_name" class="form-control" aria-required="true"/>
                     <ValidationMessage For="() => Teacher.last_name" class="text-danger" />
                 </div>
                 <div class="mb-3">
                     <label for="first_name" class="form-label">first_name:</label>
-                    <InputText id="first_name" @bind-Value="Teacher.first_name" class="form-control" />
+                    <InputText id="first_name" @bind-Value="Teacher.first_name" class="form-control" aria-required="true"/>
                     <ValidationMessage For="() => Teacher.first_name" class="text-danger" />
                 </div>
                 <div class="mb-3">
@@ -39,7 +50,7 @@ else
                 </div>
                 <div class="mb-3">
                     <label for="birth_date" class="form-label">birth_date:</label>
-                    <InputDate id="birth_date" @bind-Value="Teacher.birth_date" class="form-control" />
+                    <InputDate id="birth_date" @bind-Value="Teacher.birth_date" class="form-control" aria-required="true"/>
                     <ValidationMessage For="() => Teacher.birth_date" class="text-danger" />
                 </div>
                 <div class="mb-3">
@@ -57,16 +68,6 @@ else
                     <InputText id="photo" @bind-Value="Teacher.photo" class="form-control" />
                     <ValidationMessage For="() => Teacher.photo" class="text-danger" />
                 </div> *@
-                <div class="mb-3">
-                    <label for="work_since" class="form-label">work_since:</label>
-                    <InputDate id="work_since" @bind-Value="Teacher.work_since" class="form-control" />
-                    <ValidationMessage For="() => Teacher.work_since" class="text-danger" />
-                </div>
-                <div class="mb-3">
-                    <label for="rate" class="form-label">rate:</label>
-                    <InputNumber id="rate" @bind-Value="Teacher.rate" class="form-control" />
-                    <ValidationMessage For="() => Teacher.rate" class="text-danger" />
-                </div>
                 <button type="submit" class="btn btn-primary">Save</button>
             </EditForm>
         </div>
@@ -79,7 +80,7 @@ else
 
 @code {
     [SupplyParameterFromQuery]
-    private short teacher_id { get; set; }
+    private int teacher_id { get; set; }
 
     [SupplyParameterFromForm]
     private Teacher? Teacher { get; set; }
@@ -121,7 +122,7 @@ else
         NavigationManager.NavigateTo("/teachers");
     }
 
-    private bool TeacherExists(short teacher_id)
+    private bool TeacherExists(int teacher_id)
     {
         using var context = DbFactory.CreateDbContext();
         return context.Teachers.Any(e => e.teacher_id == teacher_id);

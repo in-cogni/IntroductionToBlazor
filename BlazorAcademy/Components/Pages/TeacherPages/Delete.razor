@@ -18,6 +18,14 @@
     }
     else {
         <dl class="row">
+            <dt class="col-sm-2">work_since</dt>
+            <dd class="col-sm-10">@teacher.work_since</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">rate</dt>
+            <dd class="col-sm-10">@teacher.rate</dd>
+        </dl>
+        <dl class="row">
             <dt class="col-sm-2">last_name</dt>
             <dd class="col-sm-10">@teacher.last_name</dd>
         </dl>
@@ -45,14 +53,6 @@
             <dt class="col-sm-2">photo</dt>
             <dd class="col-sm-10">@teacher.photo</dd>
         </dl>
-        <dl class="row">
-            <dt class="col-sm-2">work_since</dt>
-            <dd class="col-sm-10">@teacher.work_since</dd>
-        </dl>
-        <dl class="row">
-            <dt class="col-sm-2">rate</dt>
-            <dd class="col-sm-10">@teacher.rate</dd>
-        </dl>
         <EditForm method="post" Model="teacher" OnValidSubmit="DeleteTeacher" FormName="delete" Enhance>
             <button type="submit" class="btn btn-danger" disabled="@(teacher is null)">Delete</button> |
             <a href="/teachers">Back to List</a>
@@ -64,7 +64,7 @@
     private Teacher? teacher;
 
     [SupplyParameterFromQuery]
-    private short teacher_id { get; set; }
+    private int teacher_id { get; set; }
 
     protected override async Task OnInitializedAsync()
     {

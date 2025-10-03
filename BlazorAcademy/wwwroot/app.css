@@ -1,3 +1,30 @@
+.nav-link
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+    .nav-link .bi
+    {
+        font-size: 1rem;
+        vertical-align: middle;
+        line-height: 1;
+        width: 1rem;
+        text-align: center;
+    }
+
+    .nav-link span[class*="bi-"]
+    {
+        vertical-align: -0.125em;
+        display: inline-block;
+        line-height: 1;
+    }
+
+.bi::before
+{
+    vertical-align: middle;
+}
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
