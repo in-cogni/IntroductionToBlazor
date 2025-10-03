@@ -13,7 +13,7 @@ namespace BlazorAcademy.Data
         public DbSet<Direction> Directions { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<Student> Students { get; set; }
-        public DbSet<TeacherSimple> TeacherSimples { get; set; }
+        public DbSet<Teacher> Teachers { get; set; } = default!;
         public DbSet<Discipline> Disciplines { get; set; }
     }
 }
