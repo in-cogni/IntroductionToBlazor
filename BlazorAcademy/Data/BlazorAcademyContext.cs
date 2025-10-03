@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using BlazorAcademy.Models;
 
 namespace BlazorAcademy.Data
@@ -14,11 +10,10 @@ namespace BlazorAcademy.Data
         {
         }
 
-        public DbSet<Direction> Directions { get; set; } = default!;
-        public DbSet<Group> Groups { get; set; } = default!;
-        public DbSet<Student> Students { get; set; } = default!;
-        //public DbSet<Teacher> Teachers { get; set; } = default!;
-        public DbSet<TeacherSimple> TeacherSimples { get; set; } = default!; 
-        public DbSet<Discipline> Disciplines { get; set; } = default!;
+        public DbSet<Direction> Directions { get; set; }
+        public DbSet<Group> Groups { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<TeacherSimple> TeacherSimples { get; set; }
+        public DbSet<Discipline> Disciplines { get; set; }
     }
 }

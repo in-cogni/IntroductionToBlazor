@@ -20,13 +20,11 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-// Просто создаем БД
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<BlazorAcademyContext>();
     db.Database.EnsureCreated();
 }
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
