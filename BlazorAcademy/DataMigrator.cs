@@ -19,10 +19,10 @@ namespace BlazorAcademy.Data
                 using var sqlServerContext = new BlazorAcademyContext(optionsBuilder.Options);
 
                 // Миграция данных
-                await MigrateTable(sqlServerContext.Directions, sqliteContext.Directions, "Направления");
-                await MigrateTable(sqlServerContext.Groups, sqliteContext.Groups, "Группы");
-                await MigrateTable(sqlServerContext.Students, sqliteContext.Students, "Студенты");
-                await MigrateTable(sqlServerContext.Disciplines, sqliteContext.Disciplines, "Дисциплины");
+                await MigrateDirections(sqlServerContext, sqliteContext);
+                await MigrateGroups(sqlServerContext, sqliteContext);
+                await MigrateStudents(sqlServerContext, sqliteContext);
+                await MigrateDisciplines(sqlServerContext, sqliteContext);
 
                 Console.WriteLine("? Миграция завершена!");
             }
@@ -32,14 +32,47 @@ namespace BlazorAcademy.Data
             }
         }
 
-        private static async Task MigrateTable<T>(IQueryable<T> source, DbSet<T> destination, string tableName) where T : class
+        private static async Task MigrateDirections(BlazorAcademyContext source, BlazorAcademyContext destination)
         {
-            if (await source.AnyAsync())
+            if (await source.Directions.AnyAsync())
             {
-                var data = await source.ToListAsync();
-                destination.AddRange(data);
-                await destination.Context.SaveChangesAsync();
-                Console.WriteLine($"? {tableName}: {data.Count} записей");
+                var data = await source.Directions.ToListAsync();
+                destination.Directions.AddRange(data);
+                await destination.SaveChangesAsync();
+                Console.WriteLine($"? Направления: {data.Count} записей");
+            }
+        }
+
+        private static async Task MigrateGroups(BlazorAcademyContext source, BlazorAcademyContext destination)
+        {
+            if (await source.Groups.AnyAsync())
+            {
+                var data = await source.Groups.ToListAsync();
+                destination.Groups.AddRange(data);
+                await destination.SaveChangesAsync();
+                Console.WriteLine($"? Группы: {data.Count} записей");
+            }
+        }
+
+        private static async Task MigrateStudents(BlazorAcademyContext source, BlazorAcademyContext destination)
+        {
+            if (await source.Students.AnyAsync())
+            {
+                var data = await source.Students.ToListAsync();
+                destination.Students.AddRange(data);
+                await destination.SaveChangesAsync();
+                Console.WriteLine($"? Студенты: {data.Count} записей");
+            }
+        }
+
+        private static async Task MigrateDisciplines(BlazorAcademyContext source, BlazorAcademyContext destination)
+        {
+            if (await source.Disciplines.AnyAsync())
+            {
+                var data = await source.Disciplines.ToListAsync();
+                destination.Disciplines.AddRange(data);
+                await destination.SaveChangesAsync();
+                Console.WriteLine($"? Дисциплины: {data.Count} записей");
             }
         }
     }
