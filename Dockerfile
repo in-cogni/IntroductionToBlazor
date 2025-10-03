@@ -9,5 +9,5 @@ RUN dotnet publish -c Release -o /app
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app .
-COPY BlazorAcademy/Data/CSV/ Data/CSV/
+COPY BlazorAcademy/app.db .
 ENTRYPOINT ["dotnet", "BlazorAcademy.dll", "--urls", "http://0.0.0.0:10000"]
