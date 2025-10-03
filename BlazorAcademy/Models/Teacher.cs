@@ -32,5 +32,7 @@ namespace BlazorAcademy.Models
         public DateOnly work_since { get; set; }
         [Required]
         public decimal rate { get; set; }
+        public int Experience { get => (int)((DateOnly.FromDateTime(DateTime.Now).DayNumber - work_since.DayNumber) / 365.25); }
+
     }
 }
