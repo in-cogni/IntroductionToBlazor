@@ -26,7 +26,10 @@ using (var scope = app.Services.CreateScope())
 
     if (!db.Students.Any())
     {
-        await DataMigrator.MigrateFromSqlServer(db);
+        Console.WriteLine("Добавляем начальные данные...");
+
+        await db.SaveChangesAsync();
+        Console.WriteLine("Начальные данные добавлены!");
     }
 }
 
