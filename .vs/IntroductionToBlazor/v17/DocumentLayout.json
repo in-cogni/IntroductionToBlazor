@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\data\\csvimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\data\\csvimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\data\\blazoracademycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\data\\blazoracademycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\datamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\datamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\DataMigrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorAcademy\\DataMigrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\models\\teachersimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\models\\teachersimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\models\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\models\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\models\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\models\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\blazoracademy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\blazoracademy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +54,126 @@
       "DocumentGroups": [
         {
           "DockedHeight": 194,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Program.cs",
+              "RelativeToolTip": "BlazorAcademy\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:49:15.607Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeacherSimple.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\TeacherSimple.cs",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Models\\TeacherSimple.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\TeacherSimple.cs",
+              "RelativeToolTip": "BlazorAcademy\\Models\\TeacherSimple.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:53:57.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlazorAcademyContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Data\\BlazorAcademyContext.cs",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Data\\BlazorAcademyContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Data\\BlazorAcademyContext.cs",
+              "RelativeToolTip": "BlazorAcademy\\Data\\BlazorAcademyContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:50:38.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CsvImporter.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Data\\CsvImporter.cs",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Data\\CsvImporter.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Data\\CsvImporter.cs*",
+              "RelativeToolTip": "BlazorAcademy\\Data\\CsvImporter.cs*",
+              "ViewState": "AgIAANAAAAAAAAAAAAAYwNYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:46:47.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Student.cs",
+              "RelativeToolTip": "BlazorAcademy\\Models\\Student.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:50:54.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Human.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Human.cs",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Human.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Human.cs",
+              "RelativeToolTip": "BlazorAcademy\\Models\\Human.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:50:47.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Discipline.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Discipline.cs",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Discipline.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Discipline.cs",
+              "RelativeToolTip": "BlazorAcademy\\Models\\Discipline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:50:41.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Direction.cs",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Direction.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Direction.cs",
+              "RelativeToolTip": "BlazorAcademy\\Models\\Direction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:50:32.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Group.cs*",
+              "RelativeToolTip": "BlazorAcademy\\Models\\Group.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:49:51.932Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -70,95 +200,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Teacher.cs",
-              "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Teacher.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Teacher.cs*",
-              "RelativeToolTip": "BlazorAcademy\\Models\\Teacher.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T21:20:46.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataMigration.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\DataMigration.cs",
-              "RelativeDocumentMoniker": "BlazorAcademy\\DataMigration.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\DataMigration.cs",
-              "RelativeToolTip": "BlazorAcademy\\DataMigration.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwC0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T21:19:57.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorAcademy\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Program.cs",
-              "RelativeToolTip": "BlazorAcademy\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAnwB8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:49:15.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataMigrator.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\DataMigrator.cs",
-              "RelativeDocumentMoniker": "BlazorAcademy\\DataMigrator.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\DataMigrator.cs",
-              "RelativeToolTip": "BlazorAcademy\\DataMigrator.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAYwE4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:39:54.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlazorAcademyContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Data\\BlazorAcademyContext.cs",
-              "RelativeDocumentMoniker": "BlazorAcademy\\Data\\BlazorAcademyContext.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Data\\BlazorAcademyContext.cs*",
-              "RelativeToolTip": "BlazorAcademy\\Data\\BlazorAcademyContext.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswBMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:50:38.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TeacherSimple.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\TeacherSimple.cs",
-              "RelativeDocumentMoniker": "BlazorAcademy\\Models\\TeacherSimple.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\TeacherSimple.cs",
-              "RelativeToolTip": "BlazorAcademy\\Models\\TeacherSimple.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:53:57.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BlazorAcademy.csproj",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\BlazorAcademy.csproj",
               "RelativeDocumentMoniker": "BlazorAcademy\\BlazorAcademy.csproj",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\BlazorAcademy.csproj",
               "RelativeToolTip": "BlazorAcademy\\BlazorAcademy.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-03T20:48:31.214Z"
+              "WhenOpened": "2025-10-03T20:48:31.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
