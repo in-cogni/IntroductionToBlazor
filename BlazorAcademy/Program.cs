@@ -24,6 +24,11 @@ using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<BlazorAcademyContext>();
     db.Database.EnsureCreated();
+
+    if (!db.Students.Any())
+    {
+        await DataMigrator.MigrateFromSqlServer(db);
+    }
 }
 
 app.UseHttpsRedirection();
