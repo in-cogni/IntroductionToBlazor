@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\components\\pages\\studentpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\components\\pages\\studentpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\data\\blazoracademycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\data\\blazoracademycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\components\\pages\\teacherpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\components\\pages\\teacherpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\components\\pages\\teacherpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\components\\pages\\teacherpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\components\\pages\\teacherpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\components\\pages\\teacherpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|c:\\users\\pc\\source\\repos\\introductiontoblazor\\blazoracademy\\data\\blazoracademycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605B918A-D18B-4084-9277-326319DF043E}|BlazorAcademy\\BlazorAcademy.csproj|solutionrelative:blazoracademy\\data\\blazoracademycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 194,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\StudentPages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAcademy\\Components\\Pages\\StudentPages\\Index.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\StudentPages\\Index.razor",
+              "RelativeToolTip": "BlazorAcademy\\Components\\Pages\\StudentPages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T15:18:10.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BlazorAcademyContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Data\\BlazorAcademyContext.cs",
               "RelativeDocumentMoniker": "BlazorAcademy\\Data\\BlazorAcademyContext.cs",
@@ -62,17 +79,18 @@
               "RelativeToolTip": "BlazorAcademy\\Data\\BlazorAcademyContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T14:54:40.486Z"
+              "WhenOpened": "2025-10-03T14:54:40.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "BlazorAcademy\\Models\\Teacher.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Models\\Teacher.cs",
               "RelativeToolTip": "BlazorAcademy\\Models\\Teacher.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T13:19:43.763Z",
               "EditorCaption": ""
@@ -87,19 +105,21 @@
               "RelativeToolTip": "BlazorAcademy\\Components\\Pages\\TeacherPages\\Edit.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T15:01:45.606Z"
+              "WhenOpened": "2025-10-03T15:01:45.606Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\TeacherPages\\Index.razor",
               "RelativeDocumentMoniker": "BlazorAcademy\\Components\\Pages\\TeacherPages\\Index.razor",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\IntroductionToBlazor\\BlazorAcademy\\Components\\Pages\\TeacherPages\\Index.razor",
               "RelativeToolTip": "BlazorAcademy\\Components\\Pages\\TeacherPages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T12:30:55.549Z"
+              "WhenOpened": "2025-10-03T12:30:55.549Z",
+              "EditorCaption": ""
             }
           ]
         }
