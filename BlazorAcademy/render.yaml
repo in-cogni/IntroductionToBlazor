@@ -1,0 +1,6 @@
+﻿services:
+  - type: web
+    name: blazor-academy
+    runtime: docker
+    plan: free
+    branch: main

@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BlazorAcademy.Models
 {
-    public class Teacher
+    public class TeacherSimple
     {
         [Key]
         public int teacher_id { get; set; }
@@ -19,10 +18,8 @@ namespace BlazorAcademy.Models
         [Required]
         public DateOnly birth_date { get; set; }
 
-        [EmailAddress]
         public string? email { get; set; }
 
-        [Phone]
         public string? phone { get; set; }
 
         public byte[]? photo { get; set; }
@@ -33,6 +30,14 @@ namespace BlazorAcademy.Models
         [Required]
         public decimal rate { get; set; }
 
-        public int Experience { get => (int)((DateOnly.FromDateTime(DateTime.Now).DayNumber - work_since.DayNumber) / 365.25); }
+        public int Experience
+        {
+            get => (int)((DateOnly.FromDateTime(DateTime.Now).DayNumber - work_since.DayNumber) / 365.25);
+        }
+
+        public int Age
+        {
+            get => (int)((DateOnly.FromDateTime(DateTime.Now).DayNumber - birth_date.DayNumber) / 365.25);
+        }
     }
 }
