@@ -15,15 +15,15 @@
     <a href="teachers/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Teachers">
-    <PropertyColumn Title="Фамилия" Property="teacher => teacher.last_name" Sortable="true" />
-    <PropertyColumn Title="Имя" Property="teacher => teacher.first_name" Sortable="true" />
-    <PropertyColumn Title="Отчество" Property="teacher => teacher.middle_name" Sortable="true" />
-    <PropertyColumn Sortable="true" Title="Дата рождения" Property="teacher => teacher.birth_date" Format="yyyy.MM.dd"/>
-    <PropertyColumn Title="Возраст" Property="teacher => teacher.Age" />
-    <PropertyColumn Sortable="true" Title="Работает с" Property="teacher => teacher.work_since" />
-    <PropertyColumn Title="Опыт работы" Property="teacher => teacher.Experience" />
-    <PropertyColumn Sortable="true" Title="Ставка за пару" Property="teacher => teacher.rate" />
+<QuickGrid Class="table" Items="currentPageItems.AsQueryable()">
+    <PropertyColumn Title="Фамилия" Property="@(teacher => teacher.last_name)" Sortable="true" />
+    <PropertyColumn Title="Имя" Property="@(teacher => teacher.first_name)" Sortable="true" />
+    <PropertyColumn Title="Отчество" Property="@(teacher => teacher.middle_name)" Sortable="true" />
+    <PropertyColumn Sortable="true" Title="Дата рождения" Property="@(teacher => teacher.birth_date)" Format="yyyy.MM.dd"/>
+    <PropertyColumn Title="Возраст" Property="@(teacher => teacher.Age)" />
+    <PropertyColumn Sortable="true" Title="Работает с" Property="@(teacher => teacher.work_since)" />
+    <PropertyColumn Title="Опыт работы" Property="@(teacher => teacher.Experience)" />
+    <PropertyColumn Sortable="true" Title="Ставка за пару" Property="@(teacher => teacher.rate)" />
 
     <TemplateColumn Context="teacher">
         <a href="@($"teachers/edit?teacher_id={teacher.teacher_id}")">Edit</a> |
@@ -32,12 +32,53 @@
     </TemplateColumn>
 </QuickGrid>
 
+<div style="margin-top: 10px;">
+    <button @onclick="PrevPage" disabled="@(currentPage == 1)" style="width: 50px;">←</button>
+    <span style="margin: 0 10px;">@currentPage / @totalPages</span>
+    <button @onclick="NextPage" disabled="@(currentPage >= totalPages)" style="width: 50px;">→</button>
+</div>
+
 @code {
     private BlazorAcademyContext context = default!;
+    private List<Teacher> allRows = new();
+    private List<Teacher> currentPageItems = new();
+    private int currentPage = 1;
+    private int pageSize = 5;
+    private int totalPages = 1;
 
     protected override void OnInitialized()
     {
         context = DbFactory.CreateDbContext();
+        allRows = context.Teachers.ToList();
+        UpdatePage();
+    }
+
+    private void UpdatePage()
+    {
+        totalPages = (int)Math.Ceiling(allRows.Count / (double)pageSize);
+        currentPageItems = allRows
+            .Skip((currentPage - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+        StateHasChanged();
+    }
+
+    private void PrevPage()
+    {
+        if (currentPage > 1)
+        {
+            currentPage--;
+            UpdatePage();
+        }
+    }
+
+    private void NextPage()
+    {
+        if (currentPage < totalPages)
+        {
+            currentPage++;
+            UpdatePage();
+        }
     }
 
     public async ValueTask DisposeAsync() => await context.DisposeAsync();

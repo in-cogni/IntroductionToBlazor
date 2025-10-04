@@ -5,6 +5,7 @@
 @using BlazorAcademy.Data
 @implements IAsyncDisposable
 @inject IDbContextFactory<BlazorAcademy.Data.BlazorAcademyContext> DbFactory
+@rendermode InteractiveServer
 
 <PageTitle>Index</PageTitle>
 
@@ -14,11 +15,11 @@
     <a href="groups/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Groups">
-    <PropertyColumn Property="group => group.group_name" />
-    <PropertyColumn Property="group => group.direction" />
-    <PropertyColumn Property="group => group.weekdays" />
-    <PropertyColumn Property="group => group.start_time" />
+<QuickGrid Class="table" Items="currentPageItems.AsQueryable()">
+    <PropertyColumn Sortable="true" Property="@(group => group.group_name)" />
+    <PropertyColumn Sortable="true" Property="@(group => group.direction)" />
+    <PropertyColumn Sortable="true" Property="@(group => group.weekdays)" />
+    <PropertyColumn Sortable="true" Property="@(group => group.start_time)" />
 
     <TemplateColumn Context="group">
         <a href="@($"groups/edit?group_id={group.group_id}")">Edit</a> |
@@ -27,13 +28,52 @@
     </TemplateColumn>
 </QuickGrid>
 
+<div style="margin-top: 10px;">
+    <button @onclick="PrevPage" disabled="@(currentPage == 1)" style="width: 50px;">←</button>
+    <span style="margin: 0 10px;">@currentPage / @totalPages</span>
+    <button @onclick="NextPage" disabled="@(currentPage >= totalPages)" style="width: 50px;">→</button>
+</div>
+
 @code {
     private BlazorAcademyContext context = default!;
+    private List<Group> allRows = new();
+    private List<Group> currentPageItems = new();
+    private int currentPage = 1;
+    private int pageSize = 5;
+    private int totalPages = 1;
 
     protected override void OnInitialized()
     {
         context = DbFactory.CreateDbContext();
+        allRows = context.Groups.ToList();
+        UpdatePage();
+    }
+    private void UpdatePage()
+    {
+        totalPages = (int)Math.Ceiling(allRows.Count / (double)pageSize);
+        currentPageItems = allRows
+            .Skip((currentPage - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+        StateHasChanged();
     }
 
+    private void PrevPage()
+    {
+        if (currentPage > 1)
+        {
+            currentPage--;
+            UpdatePage();
+        }
+    }
+
+    private void NextPage()
+    {
+        if (currentPage < totalPages)
+        {
+            currentPage++;
+            UpdatePage();
+        }
+    }
     public async ValueTask DisposeAsync() => await context.DisposeAsync();
 }
